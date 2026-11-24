@@ -1,0 +1,88 @@
+{
+    "modelo_escolhido": "KNN",
+    "criterio_selecao": "Maior F1 macro na validacao cruzada",
+    "amostras_treino": 69,
+    "amostras_teste": 18,
+    "resultados": {
+        "KNN": {
+            "acuracia": 0.8333333333333334,
+            "precisao": 0.8380952380952381,
+            "recall": 0.8333333333333334,
+            "f1_score": 0.8321678321678322,
+            "f1_validacao_cruzada": 0.9851851851851852,
+            "metricas_por_classe": {
+                "Lilium henryi": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 6.0
+                },
+                "Lilium leucanthum": {
+                    "precision": 0.7142857142857143,
+                    "recall": 0.8333333333333334,
+                    "f1-score": 0.7692307692307693,
+                    "support": 6.0
+                },
+                "Lilium regale": {
+                    "precision": 0.8,
+                    "recall": 0.6666666666666666,
+                    "f1-score": 0.7272727272727273,
+                    "support": 6.0
+                },
+                "accuracy": 0.8333333333333334,
+                "macro avg": {
+                    "precision": 0.8380952380952381,
+                    "recall": 0.8333333333333334,
+                    "f1-score": 0.8321678321678322,
+                    "support": 18.0
+                },
+                "weighted avg": {
+                    "precision": 0.8380952380952381,
+                    "recall": 0.8333333333333334,
+                    "f1-score": 0.8321678321678322,
+                    "support": 18.0
+                }
+            }
+        },
+        "Random Forest": {
+            "acuracia": 0.8888888888888888,
+            "precisao": 0.9166666666666666,
+            "recall": 0.8888888888888888,
+            "f1_score": 0.8857142857142858,
+            "f1_validacao_cruzada": 0.9851851851851852,
+            "metricas_por_classe": {
+                "Lilium henryi": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 6.0
+                },
+                "Lilium leucanthum": {
+                    "precision": 0.75,
+                    "recall": 1.0,
+                    "f1-score": 0.8571428571428571,
+                    "support": 6.0
+                },
+                "Lilium regale": {
+                    "precision": 1.0,
+                    "recall": 0.6666666666666666,
+                    "f1-score": 0.8,
+                    "support": 6.0
+                },
+                "accuracy": 0.8888888888888888,
+                "macro avg": {
+                    "precision": 0.9166666666666666,
+                    "recall": 0.8888888888888888,
+                    "f1-score": 0.8857142857142858,
+                    "support": 18.0
+                },
+                "weighted avg": {
+                    "precision": 0.9166666666666666,
+                    "recall": 0.8888888888888888,
+                    "f1-score": 0.8857142857142857,
+                    "support": 18.0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+
+# Ambientes virtuais
+.venv/
+.venv-teste/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuracoes locais
+.vscode/
+.idea/
+
+# Arquivos temporarios do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporarios do Excel
+~$*.xlsx
+
+# Arquivos de ambiente e credenciais
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Logs e cache de testes
+*.log
+.pytest_cache/
+.mypy_cache/
